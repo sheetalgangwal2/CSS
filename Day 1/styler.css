@@ -1,0 +1,83 @@
+    /* tag element selector
+
+h1{
+    background-color :aquamarine;
+    font-size: 30px;
+    
+}
+
+ul{
+    background-color: khaki;
+    
+}
+
+h2{
+    background-color:cadetblue;
+} */
+  
+
+
+
+/* id base selector */
+/* #first{
+    background-color: blue;
+}
+
+#veg{
+    background-color: aquamarine;
+}
+
+#nveg{
+    background-color: lightcoral;
+} */
+
+
+
+
+/* CLASS BASED */
+
+/* .third{
+    background-color: darkgrey;
+}
+
+#sec{
+    background-color: blue;
+} */
+
+
+
+
+/* GROUP BASED SELECTION  */
+
+/* h1 , #nveg{
+    background-color: darkslateblue;
+} */
+
+
+
+
+/* h1{
+    background-color: rgb(96, 12, 138, 0.2);
+} */
+
+/* RedGreenBlueTranspareny  (0-255)(0-255)(0-255)(0-1) */
+
+
+/* h2{
+    background-color: hsl(302, 100%, 20%);
+} */
+
+
+/* h1{
+     background: color #639747;   
+    
+} */
+
+
+
+/* FONT  */
+
+/* h1{
+    font-size: 60px;
+
+}
