@@ -1,0 +1,32 @@
+span{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    /* display: inline; */
+    /* display: block; */
+}
+
+/* in span no height width aplly..only padding and margin in horizontally way  */
+
+
+
+/* Universal selector  */
+
+/* 
+*{
+    margin: 0px;
+    padding: 0px;
+} */
+
+h1{
+    background-color: blanchedalmond;
+    height: 200px;
+    width: 200px;
+    border: 10px, solid, pink;
+    padding:20px;
+    box-sizing: content-box;
+}
