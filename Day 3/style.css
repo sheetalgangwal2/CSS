@@ -1,0 +1,43 @@
+h1{
+    background-color:aqua;
+}
+
+
+/* most priority given to inline css  */
+
+
+/* .classA{
+    background-color: blueviolet;
+/* } */
+
+#firstid{
+    background-color: crimson;
+} 
+
+
+
+ 
+/*  second priority of id is high  */
+
+/* third is class
+fourth is tag h1, h2 */
+
+
+
+
+/* h1{
+    background-color: chartreuse;
+} */
+
+/* when tie ..ordering matter last apply hoga */
+
+
+/* h2{
+    background-color: cadetblue !important;
+}
+ */
+
+/* !important: is used to overwrite  */
+
+
+
