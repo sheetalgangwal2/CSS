@@ -1,0 +1,43 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+
+
+h2{
+    background-color:aqua;
+
+    /* satatic, relative, fixes, sticky, absolute  */
+
+    position: relative;
+    left: 100px; 
+    /* top: 50px; */
+    /* bottom, right  */
+    
+}
+
+h3{
+    background-color: bisque;
+    position: fixed;
+    top: 0px;
+    left: 250px;
+}
+
+h4{
+    background-color: crimson;
+    position: sticky;
+    top: 0px;      /*imp  */
+    left: 50px;
+}
+
+
+/* p{
+    background-color: chartreuse;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+} */
+
+
+/* z-index used to overwrite  */
