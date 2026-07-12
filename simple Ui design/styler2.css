@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container{
+    display: grid;
+    height: 800px;
+    width: 800px;
+    font-size: 20px;
+    color: black;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+    
+}
+
+.box{
+    background-color: darksalmon;
+    
+}
+
+.a{
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.b{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.f{
+    grid-row: 2/4;
+    grid-column: 4/5;
+}
