@@ -10,6 +10,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+    perspective: 800px;
 }
 
 .box{
@@ -17,19 +19,54 @@
     width: 150px;
     background-color: orange;
     cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     /* transition-property: background-color; */
     /* transition-property: all;
     transition-duration: 3s;
     transition-timing-function: ease-in; */
     /* transition-delay: 2s; */
 
-    transition: all 3s ease-in 2s;
+    /* transition: all 3s ease-in 2s; */
+    
+
+    /* transition: all 3s; */
+    /* transform: translate(-100px); */
+    /* transform: rotate(30deg); */
+    /* transform: skewX(30deg); */
+    font-size: 30px;
+    color: antiquewhite;
+    animation-name: moving;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
     
 }
 
+
+@keyframes moving {
+    from{
+        transform: rotate(0deg);
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
 .box:hover{
-    background-color: aqua;
+    /* background-color: aqua;
     height: 200px;
-    width: 300px;
+    width: 300px; */
+    /* transform: scale(2);          scalex and scale y */
+
+    /* transform: translate(100px, 200px);   x and y also  */
+
+    /* transform:translateZ(200px) ;          perspective  */
+
+    /* transform: rotateX(90deg);  */
+    /* transform: scale(2);  */
+    
 }
 
